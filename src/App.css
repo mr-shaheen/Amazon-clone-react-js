@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+body {
+  background-color: #eaeded;
+}
+.Container {
+  display: none;
+}
+.nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navs {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  background-color: #232f3e;
+}
+.navsc {
+  /* display: flex;
+  /* justify-content: space-evenly; */
+  color: white;
+  /* padding-top: 11px; */
+}
+.navsc,
+span {
+  margin: 0 8px;
+  font-size: 15px;
+}
+.nimg {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.nsearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 4px;
+}
+.nsearchi {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.sicon {
+  padding: 5px;
+  height: 30px !important;
+  background-color: #cd9042;
+  border-radius:
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ncont {
+  display: flex;
+  /* flex-direction: column; */
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.op1 {
+  margin-right: 8px;
+}
+.op2 {
+  margin-right: 5px;
+}
+.op4 {
+  color: white;
+  margin-right: 9px;
+}
+.op3 {
+  margin-top: 9px;
+}
+.fl {
+  font-size: 12px;
+}
+.sl {
+  font-size: 13px;
+  font-weight: 800;
+}
+.ind {
+  height: 35px;
+  width: 35px;
+  padding-top: 7px;
+}

@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 18px;
+}
+.firstfoot {
+  background-color: #37475a;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 19px;
+  font-size: 13px;
+}
+.secondfoot {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #232f3e;
+  color: white;
+  padding-top: 50px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  padding-bottom: 15px;
+}
+
+.secondfoot > .sfo > p {
+  line-height: 25px;
+}
+.secondfoot > .sft > p {
+  line-height: 25px;
+}
+.secondfoot > .sfth > p {
+  line-height: 25px;
+}
+.secondfoot > .sff > p {
+  line-height: 25px;
+}
+.secondfoot > .sfo > h4 {
+  margin-bottom: 15px;
+}
+.secondfoot > .sft > h4 {
+  margin-bottom: 15px;
+}
+
+.secondfoot > .sfth > h4 {
+  margin-bottom: 15px;
+}
+
+.secondfoot > .sff > h4 {
+  margin-bottom: 15px;
+}
+.tfoot {
+  background-color: #232f3e;
+  border-top: 1px solid #3a4553;
+}
+
+.alogo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 46%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.dt {
+  color: white;
+  text-align: center;
+  word-spacing: 8px;
+  padding: 8px 0;
+}
